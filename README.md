@@ -144,3 +144,16 @@ remote:
 To https://github.com/Brayan-PD/ejercicio-git-branch2
  * [new branch]      ejercicio3-branch -> ejercicio3-branch
 ```
+## se fusionan las ramas 
+```code
+bae2@jpexposito-VirtualBox:~/ejercicio-git-branch2$ git checkout main
+git merge ejercicio3-branch
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+Actualizando 070f080..9066506
+Fast-forward
+ README.md       | 41 +++++++++++++++++++++++++++++++++++++++++
+ ejercicio3.java |  5 +++++
+ 2 files changed, 46 insertions(+)
+ create mode 100644 ejercicio3.java
+```
