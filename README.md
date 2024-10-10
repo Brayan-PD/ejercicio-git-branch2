@@ -103,3 +103,21 @@ remote:
 To https://github.com/Brayan-PD/ejercicio-git-branch2
  * [new branch]      ejercicio2-branch -> ejercicio2-branch
 ```
+## Crea un nuevo branch o rama para los nuevos cambios que vas a introducir.
+```code
+bae2@jpexposito-VirtualBox:~/ejercicio-git-branch2$ git checkout -b  ejercicio3-branch 
+Cambiado a nueva rama 'ejercicio3-branch'
+```
+## Se añade el ejercicio3.java
+```code
+     public class Ejercicio1 {
+     public static void main(String[] args) {
+         System.out.println("Ejercicio 1 realizado.");
+     }
+ }    
+```
+## Se hace un add
+```code
+
+```
+## Se hace un commit
