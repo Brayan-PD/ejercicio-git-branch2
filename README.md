@@ -62,3 +62,24 @@ To https://github.com/Brayan-PD/ejercicio-git-branch2
    4576c5e..1b97dbb  ejercicio1-branch -> ejercicio1-branch
 Rama 'ejercicio1-branch' configurada para hacer seguimiento a la rama remota 'ejercicio1-branch' de 'origin'.
 ```
+## Se vuelven hacer los pasos, creamos el nuevo branch
+```code
+bae2@jpexposito-VirtualBox:~/ejercicio-git-branch2$  git checkout -b ejercicio2-branch
+Cambiado a nueva rama 'ejercicio2-branch'
+```
+## Añade la siguiente clase al repositorio:
+```code
+     public class Ejercicio1 {
+     public static void main(String[] args) {
+         System.out.println("Ejercicio 1 realizado.");
+     }
+ }    
+```
+## Hacer un add 
+```code
+
+```
+## Hacer commit de los cambios
+```code
+
+```
