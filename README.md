@@ -77,9 +77,29 @@ Cambiado a nueva rama 'ejercicio2-branch'
 ```
 ## Hacer un add 
 ```code
-
+bae2@jpexposito-VirtualBox:~/ejercicio-git-branch2$ git add .
 ```
 ## Hacer commit de los cambios
 ```code
-
+bae2@jpexposito-VirtualBox:~/ejercicio-git-branch2$ git commit -m "Se incluye el Ejercicio2.java"
+[ejercicio2-branch e8857f3] Se incluye el Ejercicio2.java
+ 2 files changed, 26 insertions(+)
+ create mode 100644 ejercicio2.java
+```
+## Sube los cambios a tu repositorio
+```code
+bae2@jpexposito-VirtualBox:~/ejercicio-git-branch2$ git push origin ejercicio2-branch
+Enumerando objetos: 6, listo.
+Contando objetos: 100% (6/6), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (4/4), listo.
+Escribiendo objetos: 100% (4/4), 571 bytes | 571.00 KiB/s, listo.
+Total 4 (delta 1), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'ejercicio2-branch' on GitHub by visiting:
+remote:      https://github.com/Brayan-PD/ejercicio-git-branch2/pull/new/ejercicio2-branch
+remote: 
+To https://github.com/Brayan-PD/ejercicio-git-branch2
+ * [new branch]      ejercicio2-branch -> ejercicio2-branch
 ```
